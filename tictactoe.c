@@ -35,35 +35,35 @@ else{
 	// setting conditions for checking if player won or not
 	if(boxKeys[0] == 'x'&&boxKeys[1] == 'x'&&boxKeys[2] == 'x'){
 		printf("\n\033[31;7mPlayer 1 has won the match\033[0m\n");
-		exit(1);
+		exit(0);
 	}
 	else if(boxKeys[3] == 'x'&&boxKeys[4] == 'x'&&boxKeys[5] == 'x'){
 		printf("\n\033[31;7mPlayer 1 has won the match\033[0m\n");
-		exit(1);
+		exit(0);
 	}
 	else if(boxKeys[6] == 'x'&&boxKeys[7] == 'x'&&boxKeys[8] == 'x'){
 		printf("\n\033[31;7mPlayer 1 has won the match\033[0m\n");
-		exit(1);
+		exit(0);
 	}
 	else if(boxKeys[0] == 'x'&&boxKeys[3] == 'x'&&boxKeys[6] == 'x'){
 		printf("\n\033[31;7mPlayer 1 has won the match\033[0m\n");
-		exit(1);
+		exit(0);
 	}
 	else if(boxKeys[1] == 'x'&&boxKeys[4] == 'x'&&boxKeys[7] == 'x'){
 		printf("\n\033[31;7mPlayer 1 has won the match\033[0m\n");
-		exit(1);
+		exit(0);
 	}
 	else if(boxKeys[2] == 'x'&&boxKeys[5] == 'x'&&boxKeys[8] == 'x'){
 		printf("\n\033[31;7mPlayer 1 has won the match\033[0m\n");
-		exit(1);
+		exit(0);
 	}
 	else if(boxKeys[0] == 'x'&&boxKeys[4] == 'x'&&boxKeys[8] == 'x'){
 		printf("\n\033[31;7mPlayer 1 has won the match\033[0m\n");
-		exit(1);
+		exit(0);
 	}
 	else if(boxKeys[2] == 'x'&&boxKeys[4] == 'x'&&boxKeys[6] == 'x'){
 		printf("\n\033[31;7mPlayer 1 has won the match\033[0m\n");
-		exit(1);
+		exit(0);
 	}
 
 
@@ -88,37 +88,37 @@ else{
 
 	if(boxKeys[0] == 'o'&&boxKeys[1] == 'o'&&boxKeys[2] == 'o'){
 		printf("\n\033[31;7mPlayer 2 has won the match\033[0m\n");
-		exit(1);
+		exit(0);
 	}
 	else if(boxKeys[3] == 'o'&&boxKeys[4] == 'o'&&boxKeys[5] == 'o'){
 		printf("\n\033[31;7mPlayer 2 has won the match\033[0m\n");
-		exit(1);
+		exit(0);
 	}
 	else if(boxKeys[6] == 'o'&&boxKeys[7] == 'o'&&boxKeys[8] == 'o'){
 		printf("\n\033[31;7mPlayer 2 has won the match\033[0m\n");
-		exit(1);
+		exit(0);
 	}
 	else if(boxKeys[0] == 'o'&&boxKeys[3] == 'o'&&boxKeys[6] == 'o'){
 		printf("\n\033[31;7mPlayer 2 has won the match\033[0m\n");
-		exit(1);
+		exit(0);
 	}
 	else if(boxKeys[1] == 'o'&&boxKeys[4] == 'o'&&boxKeys[7] == 'o'){
 		printf("\n\033[31;7mPlayer 2 has won the match\033[0m\n");
-		exit(1);
+		exit(0);
 	}
 	else if(boxKeys[2] == 'o'&&boxKeys[5] == 'o'&&boxKeys[8] == 'o'){
 		printf("\n\033[31;7mPlayer 2 has won the match\033[0m\n");
-		exit(1);
+		exit(0);
 	}
 	else if(boxKeys[0] == 'o'&&boxKeys[4] == 'o'&&boxKeys[8] == 'o'){
 		printf("\n\033[31;7mPlayer 2 has won the match\033[0m\n");
-		exit(1);
+		exit(0);
 	}
 	else if(boxKeys[2] == 'o'&&boxKeys[4] == 'o'&&boxKeys[6] == 'o'){
 		printf("\n\033[31;7mPlayer 2 has won the match\033[0m\n");
-		exit(1);
+		exit(0);
 	}
 
 }
-} // Loop for turn here
+} // Loop for turn ends here
 } // Main function ends here
